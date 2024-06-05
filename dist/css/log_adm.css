@@ -1,0 +1,70 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+    height: 300px;
+}
+
+label {
+    padding-inline: 10px;
+    margin-left: 40px;
+    font-size: 20px;
+    color: black;
+}
+
+.ask{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 45px;
+}
+
+span {
+    font-size: 18px;
+    padding-right: 10px;
+    color: black;
+}
+
+
+
+
+input {
+    margin: 10px 0px;
+    margin-bottom: 30px;
+    padding: 10px;
+    margin-inline: auto;
+    border: unset;
+    width: 70%;
+    border: 2px solid black;
+    outline: none;
+    color: black;
+}
+
+button {
+    font-size: 15px;
+    width: 35%;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    padding: 10px;
+    margin-inline: auto;
+    background-color: black;
+    border: unset;
+    color: white;
+    cursor: pointer;
+}
+
+.msg {
+    display: flex;
+    text-align: center;
+    margin-inline: auto;
+    color: rgb(255, 102, 102);
+    font-weight: bold;
+}
